@@ -1,0 +1,243 @@
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: dark;
+  color: rgba(255, 255, 255, 0.9);
+
+  /* Glassmorphism Variables */
+  --glass-bg: rgba(0, 40, 20, 0.65);
+  /* Darker Green Tint */
+  --glass-border: rgba(191, 161, 95, 0.3);
+  /* Gold Border */
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+  --backdrop-blur: 10px;
+
+  /* Brand Colors (Green for Pakistan/Logistics) */
+  --primary-color: #006633;
+  /* PIA Green */
+  --primary-hover: #008f4c;
+  --accent-color: #BFA15F;
+  /* PIA Gold */
+  --text-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  /* Background Gradient */
+  background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+  background-attachment: fixed;
+}
+
+a {
+  font-weight: 500;
+  color: var(--primary-color);
+  text-decoration: inherit;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: var(--accent-color);
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid var(--glass-border);
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 600;
+  font-family: inherit;
+  background-color: var(--primary-color);
+  color: white;
+  cursor: pointer;
+  transition: all 0.25s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: var(--primary-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+/* Custom Layout Styles */
+.app-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 260px;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(var(--backdrop-blur));
+  -webkit-backdrop-filter: blur(var(--backdrop-blur));
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-right: 1px solid var(--glass-border);
+}
+
+.sidebar h2 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 10px;
+}
+
+.sidebar a {
+  padding: 12px 15px;
+  border-radius: 10px;
+  color: #e0e0e0;
+  text-decoration: none;
+  transition: all 0.3s;
+  background: transparent;
+  border: 1px solid transparent;
+}
+
+.sidebar a:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateX(5px);
+}
+
+.sidebar a.active {
+  background: linear-gradient(90deg, rgba(0, 168, 89, 0.2) 0%, rgba(0, 168, 89, 0) 100%);
+  border-left: 4px solid var(--primary-color);
+  color: white;
+}
+
+.main-content {
+  flex: 1;
+  padding: 30px;
+  overflow-y: auto;
+}
+
+.card {
+  background: var(--glass-bg);
+  box-shadow: var(--glass-shadow);
+  backdrop-filter: blur(var(--backdrop-blur));
+  -webkit-backdrop-filter: blur(var(--backdrop-blur));
+  border-radius: 16px;
+  border: 1px solid var(--glass-border);
+  padding: 30px;
+  margin-bottom: 30px;
+  animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.input-group {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+label {
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+input,
+select {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 1px solid var(--glass-border);
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  background: rgba(0, 0, 0, 0.5);
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--glass-border);
+}
+
+th,
+td {
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 1px solid var(--glass-border);
+  border-right: 1px solid var(--glass-border);
+}
+
+th {
+  background-color: rgba(0, 168, 89, 0.2);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+tr:hover td {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
