@@ -1,0 +1,155 @@
+PROPRIETARY SOFTWARE LICENSE AGREEMENT
+
+Copyright (c) 2025 CodeRafay. All Rights Reserved.
+
+NOTICE: All information contained herein is, and remains the property of
+CodeRafay and its suppliers, if any. The intellectual and technical concepts
+contained herein are proprietary to CodeRafay and its suppliers and are
+protected by trade secret, copyright law, and international treaty provisions.
+
+Dissemination of this information or reproduction of this material is strictly
+forbidden unless explicit written permission is obtained from CodeRafay.
+
+================================================================================
+
+TERMS AND CONDITIONS
+
+1. GRANT OF LICENSE
+
+   This license does NOT grant you the right to use, copy, modify, merge,
+   publish, distribute, sublicense, or sell copies of the Software without
+   explicit written permission from the copyright holder.
+
+2. RESTRICTIONS
+
+   You may NOT:
+
+   a) Deploy, host, or publish this software or any derivative works under
+   your own name or brand without explicit written permission from CodeRafay.
+
+   b) Use this software for commercial purposes without explicit written
+   permission from CodeRafay.
+
+   c) Distribute, sublicense, lease, or rent the software to third parties
+   without explicit written permission from CodeRafay.
+
+   d) Remove, obscure, or alter any proprietary notices (including copyright
+   and trademark notices) on or in the software.
+
+   e) Reverse engineer, decompile, or disassemble the software, except to the
+   extent that such activity is expressly permitted by applicable law.
+
+   f) Create derivative works based on the software without explicit written
+   permission from CodeRafay.
+
+   g) Claim ownership or authorship of this software or any substantial
+   portions thereof.
+
+3. INTELLECTUAL PROPERTY RIGHTS
+
+   All title, ownership rights, and intellectual property rights in and to the
+   software shall remain with CodeRafay. The software is protected by copyright
+   laws and international copyright treaties, as well as other intellectual
+   property laws and treaties.
+
+4. COPYRIGHT
+
+   The software contains material that is protected by copyright law and trade
+   secret law, and by international treaty provisions. All rights not expressly
+   granted in this License are reserved by CodeRafay.
+
+5. CONTRIBUTIONS
+
+   By submitting contributions (code, documentation, or any other materials) to
+   this project, you:
+
+   a) Retain copyright to your contributions.
+
+   b) Grant CodeRafay a perpetual, worldwide, non-exclusive, transferable,
+   royalty-free, irrevocable license to use, reproduce, modify, display,
+   perform, sublicense, and distribute your contributions as part of the
+   software.
+
+   c) Agree that you have the right to submit the contributions and that your
+   contributions do not violate any third-party rights.
+
+   d) Acknowledge that contributing does NOT grant you the right to deploy,
+   publish, or distribute the software under your own name.
+
+6. VIEWING AND REFERENCE
+
+   You may view the source code for:
+
+   - Educational purposes
+   - Reference and learning
+   - Contribution to the project (subject to Terms #5)
+
+   Viewing rights do NOT constitute usage, deployment, or distribution rights.
+
+7. PERMISSION REQUESTS
+
+   To request permission for any restricted use including but not limited to:
+
+   - Commercial use
+   - Deployment or hosting
+   - Distribution
+   - Creation of derivative works
+
+   Contact: CodeRafay via GitHub (https://github.com/CodeRafay)
+
+   All permissions must be granted in writing and signed by CodeRafay.
+
+8. TERMINATION
+
+   This license is effective until terminated. Your rights under this license
+   will terminate automatically without notice if you fail to comply with any
+   term(s) of this license. Upon termination, you shall immediately cease all
+   use of the software and destroy all copies.
+
+9. NO WARRANTY
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+   WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF
+   OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.
+
+10. LIMITATION OF LIABILITY
+
+    IN NO EVENT SHALL CODERAFAY BE LIABLE FOR ANY SPECIAL, INCIDENTAL,
+    INDIRECT, OR CONSEQUENTIAL DAMAGES WHATSOEVER (INCLUDING, WITHOUT
+    LIMITATION, DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION,
+    LOSS OF BUSINESS INFORMATION, OR ANY OTHER PECUNIARY LOSS) ARISING OUT OF
+    THE USE OF OR INABILITY TO USE THIS SOFTWARE.
+
+11. GOVERNING LAW
+
+    This License shall be governed by and construed in accordance with the laws
+    applicable in the jurisdiction of the copyright holder, without regard to
+    its conflict of law provisions.
+
+12. ENTIRE AGREEMENT
+
+    This License constitutes the entire agreement between the parties
+    concerning the subject matter hereof and supersedes all prior or
+    contemporaneous oral or written agreements and understandings with respect
+    to the software.
+
+13. ACKNOWLEDGMENT
+
+    BY VIEWING, ACCESSING, OR CONTRIBUTING TO THIS SOFTWARE, YOU ACKNOWLEDGE
+    THAT YOU HAVE READ THIS LICENSE, UNDERSTAND IT, AND AGREE TO BE BOUND BY
+    ITS TERMS AND CONDITIONS.
+
+================================================================================
+
+For permissions, licensing inquiries, or other questions, please contact:
+
+GitHub: https://github.com/CodeRafay
+Repository: https://github.com/CodeRafay/operations-research-toolkit
+
+================================================================================
+
+Last Updated: December 5, 2025
