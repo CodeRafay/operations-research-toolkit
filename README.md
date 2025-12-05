@@ -188,15 +188,16 @@ Unauthorized copying, modification, distribution, or use of this software, via a
 
 ## 👨‍💻 Author
 
+**Ali Haider**
 **CodeRafay**
 
+- GitHub: [@AliHaider](https://github.com/Alihaider0007)
 - GitHub: [@CodeRafay](https://github.com/CodeRafay)
--
 - Repository: [operations-research-toolkit](https://github.com/CodeRafay/operations-research-toolkit)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
-- Built as part of Operations Research coursework (Semester 6)
+- Built as part of Operations Research coursework
 - Special thanks to the OR community for algorithm references
 - Inspired by the need for accessible optimization tools
 
